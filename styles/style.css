@@ -983,8 +983,8 @@ body {
 
 /* SHOW NEXT SECTION PEEK ON HOMEPAGE */
 .work {
-  margin-top: -60px;
+  margin-top: -35px;
   position: relative;
   z-index: 20;
-  padding-top: 120px;
+  padding-top: 65px;
 }
