@@ -978,3 +978,10 @@ body {
   }
 }
 
+
+
+
+.hero {
+  height: 70vh !important;
+  min-height: 560px;
+}
