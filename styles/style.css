@@ -978,3 +978,17 @@ body {
   }
 }
 
+/* FIX HERO LAYERING */
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.star {
+  z-index: 1;
+}
+
+.logo {
+  position: relative;
+  z-index: 10;
+}
