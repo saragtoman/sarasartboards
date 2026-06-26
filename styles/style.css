@@ -978,23 +978,3 @@ body {
   }
 }
 
-
-
-
-/* FAKE NEXT SECTION PEEK */
-.hero::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 45px;
-  background: #eee;
-  z-index: 5;
-  pointer-events: none;
-}
-
-.logo,
-.star {
-  z-index: 10;
-}
