@@ -981,7 +981,10 @@ body {
 
 
 
-.hero {
-  height: 70vh !important;
-  min-height: 560px;
+/* SHOW NEXT SECTION PEEK ON HOMEPAGE */
+.work {
+  margin-top: -90px;
+  position: relative;
+  z-index: 20;
+  padding-top: 120px;
 }
