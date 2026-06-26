@@ -981,10 +981,13 @@ body {
 
 
 
-/* SHOW NEXT SECTION PEEK ON HOMEPAGE */
+/* HOMEPAGE HERO PEEK FIX */
+.hero {
+  height: calc(100vh - 120px) !important;
+  min-height: 0 !important;
+}
+
 .work {
-  margin-top: -35px;
-  position: relative;
-  z-index: 20;
-  padding-top: 65px;
+  margin-top: 0 !important;
+  padding-top: 60px;
 }
